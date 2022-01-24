@@ -21,10 +21,11 @@ class Categories extends StatelessWidget {
               ),
             ],
           ),
-          Padding(padding: EdgeInsets.only(top: 30,left: 10)),
+          Padding(padding: EdgeInsets.only(top: 30, left: 10)),
           Row(
             children: [
-              Text('CATEGORIES', style: TextStyle(color: Colors.brown, fontSize: 20)),
+              Text('CATEGORIES',
+                  style: TextStyle(color: Colors.brown, fontSize: 20)),
             ],
           ),
           Padding(
@@ -40,7 +41,8 @@ class Categories extends StatelessWidget {
                         child: Column(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20.0, left: 10),
+                              padding:
+                                  const EdgeInsets.only(top: 20.0, left: 10),
                               child: Row(
                                 children: [
                                   Text(
@@ -90,7 +92,8 @@ class Categories extends StatelessWidget {
                         child: Column(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20.0, left: 10),
+                              padding:
+                                  const EdgeInsets.only(top: 20.0, left: 10),
                               child: Row(
                                 children: [
                                   Text(
@@ -140,7 +143,8 @@ class Categories extends StatelessWidget {
                         child: Column(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 20.0, left: 10),
+                              padding:
+                                  const EdgeInsets.only(top: 20.0, left: 10),
                               child: Row(
                                 children: [
                                   Text(

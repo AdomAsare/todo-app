@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mytodoapp/sign_up.dart';
 import 'package:mytodoapp/todo.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
        
         primarySwatch: Colors.blue,
       ),
-      home:TodoApp(),
+      home:Signup(),
     );
   }
 }
